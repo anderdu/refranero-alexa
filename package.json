@@ -1,0 +1,45 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "gran refranero",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "DecirRefranNumero",
+                    "slots": [
+                        {
+                            "name": "numero",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "Dime el refran numero {numero}"
+                    ]
+                },
+                {
+                    "name": "ContarChiste",
+                    "slots": [],
+                    "samples": [
+                        "Cuentame un chiste"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
